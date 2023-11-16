@@ -2,7 +2,7 @@ import { createTheme } from "@mui/material";
 const theme = createTheme({
     palette: {
         background: {
-            default: '#ffffff', // body color
+            default: '#FAFAFA', // body color
         },
         primary: {
             main: '#ec3946', // main color
@@ -37,8 +37,6 @@ const theme = createTheme({
             fontSize: '1.5rem', // heading size
             fontWeight: 500,
         },
-        fontFamily: '"Playfair Display", serif', // heading font
-
         body1: {
             fontSize: '1rem', // default text size
         },
